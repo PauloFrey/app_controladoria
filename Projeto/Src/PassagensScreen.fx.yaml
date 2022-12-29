@@ -20,6 +20,7 @@
             TitleComponent_1 As TitleComponent:
                 LayoutMinHeight: =640
                 LayoutMinWidth: =640
+                Title: ="Passagens"
 
         MainSectionContainerPassagensScreen As groupContainer.verticalAutoLayoutContainer:
             AlignInContainer: =AlignInContainer.SetByContainer

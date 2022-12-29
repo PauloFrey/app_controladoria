@@ -728,7 +728,14 @@
         "X",
         "Y",
         "ZIndex",
-        "Title",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "\"Texto\"",
+          "InvariantPropertyName": "Title",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "Screen"
       ],
       "DynamicProperties": [
@@ -790,7 +797,7 @@
         {
           "Category": "Data",
           "PropertyName": "Title",
-          "RuleProviderType": "System"
+          "RuleProviderType": "Unknown"
         },
         {
           "Category": "Data",
