@@ -80,7 +80,7 @@
       "useguiddatatypes": true,
       "usenonblockingonstartrule": true,
       "webbarcodescanner": false,
-      "zeroalltabindexes": true
+      "zeroalltabindexes": false
     },
     "Author": "",
     "ContainsThirdPartyPcfControls": false,
@@ -113,6 +113,7 @@
     "UserLocale": "pt-BR"
   },
   "ScreenOrder": [
-    "Screen1"
+    "HomeScreen",
+    "PassagensScreen"
   ]
 }
