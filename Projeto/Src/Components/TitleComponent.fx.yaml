@@ -1,6 +1,6 @@
 TitleComponent As CanvasComponent:
     Fill: =RGBA(0, 0, 0, 0)
-    Height: =100
+    Height: =75
     Screen: =App.ActiveScreen
     Title: ="Texto"
     Width: |
@@ -18,17 +18,17 @@ TitleComponent As CanvasComponent:
         Label1 As label:
             Color: =RGBA(255, 255, 255, 1)
             FontWeight: =FontWeight.Semibold
-            Height: =100
+            Height: =75
             Size: =30
             Text: =$"{  If( IsBlank(TitleComponent.Title), "Titulo", TitleComponent.Title )  }"
             Width: =720
-            X: =288
+            X: =286
             ZIndex: =1
 
         Arrow1 As arrow.backArrow:
             Fill: =RGBA(255, 255, 255, 1)
             OnSelect: =If(  IsBlank(TitleComponent.Screen),Back(), TitleComponent.Screen  )
-            X: =174
-            Y: =25
+            X: =177
+            Y: =12
             ZIndex: =2
 

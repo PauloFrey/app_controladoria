@@ -1,6 +1,6 @@
 "PassagensScreen As screen.'tabletAutoLayout_HeaderMainFooter_ver1.0'":
 
-    ScreenContainer1 As groupContainer.verticalAutoLayoutContainer:
+    ScreenContainerPassagensScreen As groupContainer.verticalAutoLayoutContainer:
         Height: =Parent.Height
         LayoutAlignItems: =LayoutAlignItems.Stretch
         LayoutDirection: =LayoutDirection.Vertical
@@ -8,7 +8,8 @@
         Width: =Parent.Width
         ZIndex: =1
 
-        HeaderContainer1 As groupContainer.horizontalAutoLayoutContainer:
+        HeaderContainerPassagensScreen As groupContainer.horizontalAutoLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
             FillPortions: =0
             Height: =75
             LayoutMinHeight: =100
@@ -16,14 +17,20 @@
             LayoutMode: =LayoutMode.Auto
             ZIndex: =2
 
-        MainSectionContainer1 As groupContainer.verticalAutoLayoutContainer:
+            TitleComponent_1 As TitleComponent:
+                LayoutMinHeight: =640
+                LayoutMinWidth: =640
+
+        MainSectionContainerPassagensScreen As groupContainer.verticalAutoLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
             LayoutDirection: =LayoutDirection.Vertical
             LayoutMinHeight: =100
             LayoutMinWidth: =250
             LayoutMode: =LayoutMode.Auto
             ZIndex: =3
 
-        FooterContainer1 As groupContainer.horizontalAutoLayoutContainer:
+        FooterContainerPassagensScreen As groupContainer.horizontalAutoLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
             FillPortions: =0
             Height: =75
             LayoutMinHeight: =100
