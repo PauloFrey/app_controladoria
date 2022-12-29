@@ -39,3 +39,7 @@
             LayoutMode: =LayoutMode.Auto
             ZIndex: =4
 
+            FooterComponentPassagensScreen As FooterComponent:
+                LayoutMinHeight: =640
+                LayoutMinWidth: =640
+

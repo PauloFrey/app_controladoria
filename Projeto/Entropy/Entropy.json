@@ -1,6 +1,7 @@
 {
   "ComponentIndexes": {
     "FooterComponent": 3,
+    "FooterComponentPassagensScreen": 3,
     "TitleComponent": 2,
     "TitleComponent_1": 2
   },
@@ -11,6 +12,7 @@
     "ContainerFooterComponent": 15,
     "ContainerTitleComponent": 5,
     "FooterComponent": 14,
+    "FooterComponentPassagensScreen": 18,
     "FooterContainerPassagensScreen": 10,
     "HeaderContainerPassagensScreen": 8,
     "HomeScreen": 3,
@@ -24,7 +26,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "12/29/2022 14:08:13",
+  "HeaderLastSavedDateTimeUTC": "12/29/2022 14:11:31",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -53,6 +55,7 @@
     "ContainerFooterComponent": {},
     "ContainerTitleComponent": {},
     "FooterComponent": {},
+    "FooterComponentPassagensScreen": {},
     "FooterContainerPassagensScreen": {},
     "HeaderContainerPassagensScreen": {},
     "HomeScreen": {},
@@ -71,6 +74,7 @@
     "ContainerFooterComponent": 4,
     "ContainerTitleComponent": 4,
     "FooterComponent": 0,
+    "FooterComponentPassagensScreen": 0,
     "FooterContainerPassagensScreen": 3,
     "HeaderContainerPassagensScreen": 1,
     "HomeScreen": 0,
@@ -90,6 +94,7 @@
     "ControlCount": {
       "8d0302db2d1041c0a4feb3c488c669a9": 1,
       "arrow": 1,
+      "c1e1699158dd44648b9394d4fbf90f80": 1,
       "groupContainer": 1,
       "label": 1,
       "screen": 1
